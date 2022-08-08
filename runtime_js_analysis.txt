@@ -1,0 +1,48 @@
+Below are my results and observations after running this program for various sizes of arrays (tiny,small,medium, large and extra large).
+
+As the size of array increases, the runtime for unshift is taking longer. Push seems to be performing better than unshift for larger arrays.
+
+Runtime seems to be constant O(1) for push, whereas runtime for unshift is O(n)
+
+
+Results for the extraLargeArray
+insert 1.9662332839999999 s
+append 8.251229 ms
+
+Results for the tinyArray
+insert 80.603 μs
+append 105.845 μs
+
+
+insert 97.995 μs
+append 487.702 μs
+
+insert 995.255 μs
+append 107.188 μs
+
+Results for the smallArray
+insert 57.815 μs
+append 121.411 μs
+
+Results for the smallArray
+insert 65.011 μs
+append 118.527 μs
+
+Results for the smallArray
+insert 57.922 μs
+append 122.642 μs
+
+Results for the mediumArray
+insert 206.157 μs
+append 168.039 μs
+
+Results for the mediumArray
+insert 207.898 μs
+append 172.13 μs
+
+Results for the mediumArray
+insert 210.247 μs
+append 421.362 μs
+
+insert 16.487105 ms
+append 3.385148 ms
